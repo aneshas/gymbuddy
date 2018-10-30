@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81B9D071FBA725900823325 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B9D061FBA725900823325 /* Exercise.swift */; };
+		B81B9D0B1FBB740300823325 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B9D0A1FBB740300823325 /* UIColor.swift */; };
+		B81B9D0D1FBC4B6D00823325 /* AddExerciseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B9D0C1FBC4B6D00823325 /* AddExerciseVC.swift */; };
+		B81B9D0F1FBC569500823325 /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B9D0E1FBC569500823325 /* PaddedTextField.swift */; };
 		B82627A41FBA1E6A00114A30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82627A31FBA1E6A00114A30 /* AppDelegate.swift */; };
 		B82627A61FBA1E6A00114A30 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82627A51FBA1E6A00114A30 /* RootViewController.swift */; };
 		B82627A81FBA1E6A00114A30 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82627A71FBA1E6A00114A30 /* DataViewController.swift */; };
 		B82627AA1FBA1E6A00114A30 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82627A91FBA1E6A00114A30 /* ModelController.swift */; };
 		B82627AD1FBA1E6A00114A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82627AB1FBA1E6A00114A30 /* Main.storyboard */; };
-		B82627AF1FBA1E6A00114A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82627AE1FBA1E6A00114A30 /* Assets.xcassets */; };
 		B82627B21FBA1E6A00114A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82627B01FBA1E6A00114A30 /* LaunchScreen.storyboard */; };
+		B82627BC1FBA3C0B00114A30 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82627BB1FBA3C0B00114A30 /* images.xcassets */; };
+		B82627BE1FBA4C3C00114A30 /* ExerciseDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82627BD1FBA4C3C00114A30 /* ExerciseDetailVC.swift */; };
+		B828490E1FC714F40020B1F2 /* UIRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B828490D1FC714F40020B1F2 /* UIRoundedButton.swift */; };
+		B83A91B21FCEBC1A00CDA6F4 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A91B11FCEBC1A00CDA6F4 /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B81B9D061FBA725900823325 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		B81B9D0A1FBB740300823325 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B81B9D0C1FBC4B6D00823325 /* AddExerciseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseVC.swift; sourceTree = "<group>"; };
+		B81B9D0E1FBC569500823325 /* PaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
 		B82627A01FBA1E6A00114A30 /* GymBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82627A31FBA1E6A00114A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B82627A51FBA1E6A00114A30 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B82627A71FBA1E6A00114A30 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		B82627A91FBA1E6A00114A30 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		B82627AC1FBA1E6A00114A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B82627AE1FBA1E6A00114A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B82627B11FBA1E6A00114A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B82627B31FBA1E6A00114A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82627BB1FBA3C0B00114A30 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		B82627BD1FBA4C3C00114A30 /* ExerciseDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailVC.swift; sourceTree = "<group>"; };
+		B828490D1FC714F40020B1F2 /* UIRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundedButton.swift; sourceTree = "<group>"; };
+		B83A91B11FCEBC1A00CDA6F4 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +72,21 @@
 		B82627A21FBA1E6A00114A30 /* GymBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				B82627BB1FBA3C0B00114A30 /* images.xcassets */,
 				B82627A31FBA1E6A00114A30 /* AppDelegate.swift */,
 				B82627A51FBA1E6A00114A30 /* RootViewController.swift */,
 				B82627A71FBA1E6A00114A30 /* DataViewController.swift */,
 				B82627A91FBA1E6A00114A30 /* ModelController.swift */,
 				B82627AB1FBA1E6A00114A30 /* Main.storyboard */,
-				B82627AE1FBA1E6A00114A30 /* Assets.xcassets */,
 				B82627B01FBA1E6A00114A30 /* LaunchScreen.storyboard */,
 				B82627B31FBA1E6A00114A30 /* Info.plist */,
+				B82627BD1FBA4C3C00114A30 /* ExerciseDetailVC.swift */,
+				B81B9D061FBA725900823325 /* Exercise.swift */,
+				B81B9D0A1FBB740300823325 /* UIColor.swift */,
+				B81B9D0C1FBC4B6D00823325 /* AddExerciseVC.swift */,
+				B81B9D0E1FBC569500823325 /* PaddedTextField.swift */,
+				B828490D1FC714F40020B1F2 /* UIRoundedButton.swift */,
+				B83A91B11FCEBC1A00CDA6F4 /* Workout.swift */,
 			);
 			path = GymBuddy;
 			sourceTree = "<group>";
@@ -129,8 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82627BC1FBA3C0B00114A30 /* images.xcassets in Resources */,
 				B82627B21FBA1E6A00114A30 /* LaunchScreen.storyboard in Resources */,
-				B82627AF1FBA1E6A00114A30 /* Assets.xcassets in Resources */,
 				B82627AD1FBA1E6A00114A30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B82627A61FBA1E6A00114A30 /* RootViewController.swift in Sources */,
+				B828490E1FC714F40020B1F2 /* UIRoundedButton.swift in Sources */,
+				B81B9D0F1FBC569500823325 /* PaddedTextField.swift in Sources */,
+				B81B9D0B1FBB740300823325 /* UIColor.swift in Sources */,
+				B81B9D0D1FBC4B6D00823325 /* AddExerciseVC.swift in Sources */,
+				B82627BE1FBA4C3C00114A30 /* ExerciseDetailVC.swift in Sources */,
+				B83A91B21FCEBC1A00CDA6F4 /* Workout.swift in Sources */,
+				B81B9D071FBA725900823325 /* Exercise.swift in Sources */,
 				B82627AA1FBA1E6A00114A30 /* ModelController.swift in Sources */,
 				B82627A81FBA1E6A00114A30 /* DataViewController.swift in Sources */,
 				B82627A41FBA1E6A00114A30 /* AppDelegate.swift in Sources */,
@@ -285,9 +313,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59H75BATX8;
 				INFOPLIST_FILE = GymBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anes.GymBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.1;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,9 +330,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59H75BATX8;
 				INFOPLIST_FILE = GymBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anes.GymBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.1;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
